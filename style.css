@@ -1,0 +1,66 @@
+body {
+	margin: 0%;
+	padding: 0%;
+	/* color: rgb(40, 41, 40);
+	background-color: rgb(240, 239, 243); */
+	color: white;
+	background-color: rgb(28, 28, 28);
+}
+
+#header {
+	width: 100%;
+	position: fixed;
+	padding:  1em 8em;
+	box-sizing: border-box;
+	border-radius: 0 0 1.2em 1.2em;
+	border: 1px solid rgb(50, 50, 50);
+	/* border: 1px solid rgb(240, 239, 243); */
+}
+
+#header, #head-panel-right, #container, #sidebar nav { display: flex; }
+
+#header, #sidebar, main {
+	/* background-color: white; */
+	background-color: rgb(40, 40, 40);
+}
+
+#header { background-color: rgb(50, 50, 50); }
+
+#level { padding-top: 0.5em; font: 14px Monaco; }
+
+#sidebar {
+	margin-left: 5em;
+	padding: 2em 3em;
+	position: fixed;
+	border-radius: 1.2em;
+	border: 1px solid rgb(50, 50, 50);
+	/* border: 1px solid rgb(240, 239, 243); */
+}
+
+#sidebar nav {
+	flex-direction: column;
+	font: 1.5em/2.5em monospace;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	/* color: rgb(40, 41, 40); */
+	color: white;
+}
+
+a:visited {
+	color: white;
+	/* color: rgb(40, 41, 40); */
+}
+
+main {
+	margin: 0 5em 0 20em;
+	width: 100%;
+	min-width: 400px;
+	height: 2000px;
+	border-radius: 1.2em;
+	border: 1px solid rgb(50, 50, 50);
+	/* border: 1px solid rgb(240, 239, 243); */
+}
